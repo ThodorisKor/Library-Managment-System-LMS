@@ -339,8 +339,8 @@ public class Dashboard extends javax.swing.JFrame {
     static String     driverClassName = "org.postgresql.Driver" ;
     static String     url = "jdbc:postgresql://dblabs.it.teithe.gr:5432/it185392" ;
     public static Connection dbConnection = null;
-    static String     username = "it185392";
-    static String     passwd = "12345teo!KORD";
+    static String     username = "YOUR_USERNAME";
+    static String     passwd = "YOUR_PASSWORD";
     static Statement statement = null;
     
     private void myConnection() throws Exception {
